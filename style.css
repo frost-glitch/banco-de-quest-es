@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 40px;
+}
+
+main {
+    max-width: 700px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#questao-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#materia {
+    font-weight: bold;
+}
+
+#alternativas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.alternativas {
+    text-align: center;
+}
+
+.correto {
+    background-color: #d4edda !important;
+    border-color: #c3e6cb !important;
+    color: #155724;
+}
+
+.errado {
+    background-color: #f8d7da !important;
+    border-color: #f5c6cb !important;
+    color: #721c24;
+}
+
+button {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+    text-align: left;
+}
+
+button:hover {
+    background-color: #eee;
+}
+
+#resultado {
+    font-weight: bold;
+    margin-top: 20px;
+}
