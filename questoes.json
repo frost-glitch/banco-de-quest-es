@@ -2,24 +2,24 @@
     {
         "materia": "matemática",
         "enunciado": "Quanto é 2+2?",
-        "alternativa": ["2", "3", "4", "5"],
-        "respostaQuestoes": "4",
+        "alternativas": ["2", "3", "4", "5"],
+        "resposta": "4",
         "explicacao": "2 + 2 = 4"
     },
 
     {
         "materia": "matemática",
         "enunciado": "Quanto é 10x10?",
-        "alternativa": ["90", "100", "110", "75"],
-        "respostaQuestoes": "100",
+        "alternativas": ["90", "100", "110", "75"],
+        "resposta": "100",
         "explicacao": "10 x 10 = 100"
     },
 
     {
         "materia": "matemática",
         "enunciado": "Quanto é sen(45°)?",
-        "alternativa": ["1/2", "√2/2", "√3/4","4/4"],
-        "respostaQuestoes": "√2/2",
+        "alternativas": ["1/2", "√2/2", "√3/4","4/4"],
+        "resposta": "√2/2",
         "explicacao": "sen45° = √2/2"
     }
 ]

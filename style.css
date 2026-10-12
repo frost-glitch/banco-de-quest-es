@@ -14,7 +14,7 @@ h1 {
     text-align: center;
 }
 
-#questao-container {
+#tela-inicial, #tela-questao {
     background-color: white;
     padding: 30px;
     border-radius: 10px;
@@ -62,4 +62,31 @@ button:hover {
 #resultado {
     font-weight: bold;
     margin-top: 20px;
+}
+
+li {
+    cursor: pointer;
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    list-style-type: none;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
+
+li.selecionada {
+    background-color: #d1ecf1 !important;
+    border-color: #bee5eb !important;
+    color: #0c5460;
+    font-weight: bold;
+}
+
+button:disabled {
+    background-color: #e0e0e0;
+    color: #888;
+    cursor: not-allowed;
+    border-color: #ccc;
 }
